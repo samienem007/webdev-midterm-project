@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Saffron Table - a cosy restaurant in Pune serving fresh, flavourful food.">
+  <title>The Saffron Table | Restaurant in Pune</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <input type="checkbox" id="theme-toggle" class="theme-checkbox"
+         aria-label="Switch between light and dark theme">
+
+  <div class="page">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="logo">The Saffron Table</a>
+
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#specials">Specials</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <label for="theme-toggle" class="theme-label">
+            <span class="show-in-light">🌙 Dark</span>
+            <span class="show-in-dark">☀️ Light</span>
+          </label>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+
+      <section id="home" class="hero-section">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <p class="hero-tag">Welcome to Pune's cosiest table</p>
+            <h1>Fresh Food, Warm Flavours, Happy Moments</h1>
+            <p class="hero-description">
+              From slow-cooked classics to freshly baked desserts, every dish at
+              The Saffron Table is made with local ingredients and a lot of love.
+            </p>
+            <a href="#menu" class="btn">Explore Menu</a>
+          </div>
+
+          <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"
+                 alt="A beautifully plated meal with fresh vegetables and herbs">
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section section">
+        <div class="container about-grid">
+          <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80"
+                 alt="Cosy restaurant interior with warm lighting and wooden tables">
+          </div>
+
+          <div class="about-text">
+            <h2 class="section-title left-align">Our Story</h2>
+            <p>
+              The Saffron Table opened in 2015 as a small family kitchen with one
+              big idea: good food brings people together. Today, we are a
+              neighbourhood favourite known for our friendly service and warm,
+              relaxed atmosphere.
+            </p>
+            <p>
+              Our speciality is modern comfort food with an Indian heart: rich
+              slow-cooked curries, hand-rolled pastas and desserts baked fresh
+              every morning.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="signature" class="signature-section section">
+        <div class="container signature-grid">
+          <div class="signature-text">
+            <span class="badge">Chef's Signature</span>
+            <h2 class="section-title left-align">Saffron Slow-Cooked Curry</h2>
+            <p>
+              Our most loved dish. Simmered for six hours with hand-ground
+              spices, creamy tomato and a pinch of real saffron, then served
+              with warm, buttery bread.
+            </p>
+
+            <ul class="tag-list">
+              <li>Saffron</li>
+              <li>Tomato</li>
+              <li>Fresh Cream</li>
+              <li>Ginger</li>
+              <li>Garam Masala</li>
+            </ul>
+
+            <p class="signature-price">₹420</p>
+            <a href="#contact" class="btn">Reserve a Table</a>
+          </div>
+
+          <div class="signature-image">
+            <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=900&q=80"
+                 alt="Bowl of rich, slow-cooked curry with spices">
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="menu-section section">
+        <div class="container">
+          <h2 class="section-title">Our Menu</h2>
+
+          <nav class="category-bar">
+            <a href="#starters">Starters</a>
+            <a href="#mains">Mains</a>
+            <a href="#desserts">Desserts</a>
+            <a href="#beverages">Beverages</a>
+          </nav>
+
+          <div class="menu-grid">
+
+            <article class="menu-card" id="starters">
+              <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=600&q=80"
+                     alt="Fresh garden salad with colourful vegetables">
+              </div>
+              <div class="card-body">
+                <span class="card-category">Starter</span>
+                <h3>Garden Fresh Salad</h3>
+                <p>Crisp greens, cherry tomatoes and a zesty lemon dressing.</p>
+                <p class="price">₹180</p>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80"
+                     alt="Grilled skewers served with fresh vegetables">
+              </div>
+              <div class="card-body">
+                <span class="card-category">Starter</span>
+                <h3>Tandoori Skewers</h3>
+                <p>Smoky grilled paneer and vegetables with mint chutney.</p>
+                <p class="price">₹260</p>
+              </div>
+            </article>
+
+            <!-- Mains -->
+            <article class="menu-card" id="mains">
+              <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=600&q=80"
+                     alt="Creamy pasta topped with fresh herbs">
+              </div>
+              <div class="card-body">
+                <span class="card-category">Main</span>
+                <h3>Creamy Herb Pasta</h3>
+                <p>Handmade pasta tossed in a rich garlic and herb sauce.</p>
+                <p class="price">₹320</p>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80"
+                     alt="Juicy grilled steak with roasted vegetables">
+              </div>
+              <div class="card-body">
+                <span class="card-category">Main</span>
+                <h3>Grilled Steak Plate</h3>
+                <p>Tender grilled steak served with roasted seasonal vegetables.</p>
+                <p class="price">₹480</p>
+              </div>
+            </article>
+
+            <article class="menu-card" id="desserts">
+              <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80"
+                     alt="Slice of rich chocolate cake">
+              </div>
+              <div class="card-body">
+                <span class="card-category">Dessert</span>
+                <h3>Chocolate Truffle Cake</h3>
+                <p>Soft, rich chocolate layers with a silky ganache topping.</p>
+                <p class="price">₹210</p>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=600&q=80"
+                     alt="Colourful glazed doughnuts on a plate">
+              </div>
+              <div class="card-body">
+                <span class="card-category">Dessert</span>
+                <h3>Glazed Doughnuts</h3>
+                <p>Fluffy doughnuts with a sweet glaze, baked fresh daily.</p>
+                <p class="price">₹150</p>
+              </div>
+            </article>
+
+            <!-- Beverages -->
+            <article class="menu-card" id="beverages">
+              <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80"
+                     alt="Cup of hot coffee on a wooden table">
+              </div>
+              <div class="card-body">
+                <span class="card-category">Beverage</span>
+                <h3>Signature Coffee</h3>
+                <p>Freshly brewed coffee with a hint of cardamom.</p>
+                <p class="price">₹120</p>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=600&q=80"
+                     alt="Refreshing orange drink with ice in a tall glass">
+              </div>
+              <div class="card-body">
+                <span class="card-category">Beverage</span>
+                <h3>Citrus Cooler</h3>
+                <p>Chilled orange and mint drink, perfect for warm days.</p>
+                <p class="price">₹140</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="specials" class="specials-section section">
+        <div class="container">
+          <h2 class="section-title">Specials &amp; Offers</h2>
+
+          <div class="specials-grid">
+            <article class="special-card">
+              <span class="badge">Daily Deal</span>
+              <h3>Lunch Thali</h3>
+              <p>A full homestyle meal with dessert, served 12 PM to 3 PM.</p>
+              <p class="special-price">₹299</p>
+            </article>
+
+            <article class="special-card featured">
+              <span class="badge">Chef's Signature</span>
+              <h3>Saffron Slow-Cooked Curry</h3>
+              <p>Our most loved dish: tender and fragrant, served with warm bread.</p>
+              <p class="special-price">₹420</p>
+            </article>
+
+            <article class="special-card">
+              <span class="badge">Combo Offer</span>
+              <h3>Pasta + Coffee Combo</h3>
+              <p>Any pasta with a signature coffee. Save ₹80 every weekday.</p>
+              <p class="special-price">₹360</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery-section section">
+        <div class="container">
+          <h2 class="section-title">Photo Gallery</h2>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=600&q=80"
+                   alt="Elegant plated dish served in the restaurant">
+              <figcaption>Chef's Table</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80"
+                   alt="Freshly baked pizza topped with melted cheese">
+              <figcaption>Wood-Fired Pizza</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=600&q=80"
+                   alt="Stack of fluffy pancakes with berries">
+              <figcaption>Sunday Brunch</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=600&q=80"
+                   alt="Toast topped with a fried egg and fresh greens">
+              <figcaption>Fresh Breakfast</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80"
+                   alt="Warmly lit restaurant dining area with tables">
+              <figcaption>Dining Hall</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=600&q=80"
+                   alt="Stylish restaurant interior with cosy seating">
+              <figcaption>Evening Ambience</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="reviews-section section">
+        <div class="container">
+          <h2 class="section-title">What Our Guests Say</h2>
+
+          <div class="reviews-grid">
+            <article class="review-card">
+              <p class="stars">★★★★★</p>
+              <p class="review-text">"Absolutely loved the pasta and the cosy vibe. Best weekend lunch spot in Pune!"</p>
+              <p class="reviewer">Ananya S.</p>
+            </article>
+
+            <article class="review-card">
+              <p class="stars">★★★★★</p>
+              <p class="review-text">"The slow-cooked curry is unreal. Friendly staff and quick service too."</p>
+              <p class="reviewer">Rohan M.</p>
+            </article>
+
+            <article class="review-card">
+              <p class="stars">★★★★☆</p>
+              <p class="review-text">"Great desserts and coffee. We come here every Sunday with the family."</p>
+              <p class="reviewer">Priya K.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+
+        <div class="footer-column">
+          <h3>Opening Hours</h3>
+          <p>Monday - Friday: 11:00 AM - 10:00 PM</p>
+          <p>Saturday - Sunday: 9:00 AM - 11:00 PM</p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Find Us</h3>
+          <address>
+            The Saffron Table<br>
+            12 Garden Street, Koregaon Park<br>
+            Pune, Maharashtra 411001
+          </address>
+        </div>
+
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <p>Phone: <a href="tel:+919876543210">+91 98765 43210</a></p>
+          <p>Email: <a href="mailto:hello@saffrontable.example">hello@saffrontable.example</a></p>
+        </div>
+      </div>
+
+      <p class="copyright">&copy; 2026 The Saffron Table. All rights reserved.</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
