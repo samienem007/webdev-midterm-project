@@ -48,11 +48,8 @@ restaurant-website/
 ├── style.css
 └── README.md
 
-## Screenshots
-Add screenshots of the desktop, mobile and dark-mode views here.
-
 ## Live Demo
-Add your Vercel or Netlify link here after deploying.
+https://thesaffrontable.vercel.app/
 
 ## Author
 Samarth
